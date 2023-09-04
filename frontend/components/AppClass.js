@@ -26,16 +26,6 @@ export default class AppClass extends React.Component {
   // THE FOLLOWING HELPERS ARE JUST RECOMMENDATIONS.
   // You can delete them and build your own logic from scratch.
 
-  movedCounter = () =>{
-    if(this.state.steps === 1) {
-      return `You moved ${this.state.steps} time`
-    } else if (this.states.steps === 0) {
-      return `you moved 0 times`
-    } else {
-      return `You moved ${this.state.steps} times`
-    }
-  }
-
   reset = () => {
     // Use this helper to reset all states to their initial values.
     this.setState({ index: 4 });
